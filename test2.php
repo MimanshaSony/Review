@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
  
     $check = mysqli_stmt_affected_rows($stmt);
     if($check==1){
-        echo 'Successfullly UPloaded';
+        echo 'Successfullly UPloadeddfghj';
     }else{
         echo 'Could not upload';
     }
